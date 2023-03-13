@@ -32,3 +32,10 @@ function NavBar() {
 
 export default NavBar
 
+//Asynchronous JavaScript
+//Establish a metaphor between synchronous versus asynchornous work
+//Describe a synchronous code block
+//Describe an asynchronous code block
+//Identify a synchronous code block
+//Identify an asynchronous code block
+
