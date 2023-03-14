@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function NavBar() {
   return (
@@ -8,20 +9,26 @@ function NavBar() {
             <ul>
                 <div className='flex justify-evenly text-sm'>
                     <div className='pr-1'>
-                        <li className='border-solid border-2 border-fuchsia-600 border-t-transparent border-x-transparent'>Home</li>
+                        <li className='border-solid border-2 border-fuchsia-600 border-t-transparent border-x-transparent text-blue-500'>
+                            <Link to='/'>{'Home'}</Link></li>
                     </div>
                     <div className='pr-1'>
-                        <li className='border-solid border-2 border-fuchsia-600 border-t-transparent border-x-transparent'>Institutions</li>
+                        <li className='border-solid border-2 border-fuchsia-600 border-t-transparent border-x-transparent text-blue-500'>
+                            <Link to='/institutions'>{'Institutions'}</Link></li>
                     </div>
                     <div className='pr-1'>
-                        <li className='border-solid border-2 border-fuchsia-600 border-t-transparent border-x-transparent'>About Us</li>
+                        <li className='border-solid border-2 border-fuchsia-600 border-t-transparent border-x-transparent text-blue-500'>
+                            <Link to='/aboutus'>{'About Us'}</Link></li>
                     </div>
                     <div>
-                        <li className='border-solid border-2 border-fuchsia-600 border-t-transparent border-x-transparent'>Contact</li>
+                        <li className='border-solid border-2 border-fuchsia-600 border-t-transparent border-x-transparent text-blue-500'>
+                            <Link to='/contact'>{'Contact'}</Link></li>
                     </div>
                     <div>
-                        <button className='text-fuchsia-500 text-xl'>Sign In</button>
-                        <button className='border-solid border-2 border-fuchsia-500 bg-transparent py-2 px-8 rounded-full text-fuchsia ml-6'>Register</button>
+                        <button className='text-fuchsia-500 text-xl'>
+                            <Link to='/signin'>{'Sign In'}</Link></button>
+                        <button className='border-solid border-2 border-fuchsia-500 bg-transparent py-2 px-8 rounded-full text-fuchsia ml-6'>
+                            <Link to='/register'>{'Register'}</Link></button>
                     </div>
                 </div>
             </ul>
