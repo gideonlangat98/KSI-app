@@ -13,7 +13,7 @@ function NavBar() {
                             <img className='rounded-full mr-1' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6bj8WV71ngUNyQvdyqI2_lNnmE9Zja-wwCw&usqp=CAU' 
                             width='40' alt='logo' />
                         </div>
-                        <div><h6 className='text-fuchsia-500 text-3xl'>KSI</h6></div>
+                        <div><h6 className='font-bold text-fuchsia-500 text-3xl'>KSI</h6></div>
                
                     </div>
                     <div className='pr-1'>
