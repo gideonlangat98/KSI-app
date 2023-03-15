@@ -3,11 +3,19 @@ import { Link } from 'react-router-dom'
 
 function NavBar() {
   return (
-    <nav className="border-solid border-2 border-pink-400 py-3 border-x-transparent">
-        <div className='ml-8 text-xl'>
-            <h6 className='text-fuchsia-500'>KSI</h6>
+    <nav className="border-solid border-2 border-pink-400 pb-4 pt-7 border-x-transparent">
+        <div className= 'text-xl'>
+            
             <ul>
                 <div className='flex justify-evenly text-sm text-blue-500'>
+                    <div className='flex justify-evenly float-left pr-2 mr-14 '>
+                        <div>
+                            <img className='rounded-full mr-1' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6bj8WV71ngUNyQvdyqI2_lNnmE9Zja-wwCw&usqp=CAU' 
+                            width='40' alt='logo' />
+                        </div>
+                        <div><h6 className='text-fuchsia-500 text-3xl'>KSI</h6></div>
+               
+                    </div>
                     <div className='pr-1'>
                         <li>
                             <Link to='/'>{'Home'}</Link>

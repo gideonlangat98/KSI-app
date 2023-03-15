@@ -7,9 +7,16 @@ function Footer() {
       <footer className='mt-40 mb-10 border-solid border-2 border-pink-400 border-x-transparent 
         border-b-transparent mx-8'>
           <div className='flex justify-between'>
-            <div className='ml-8 my-3'>
-              <h4 className='text-fuchsia-500 mb-3 text-center text-xl'>KSI</h4>
-              <p className='text-xl text-white'>Kenya School Interviews is a platform <br></br>which
+            <div className='ml-8 my-4'>
+              <div className='flex place-content-center'>
+                <div>
+                  <img className='rounded-full mr-1' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6bj8WV71ngUNyQvdyqI2_lNnmE9Zja-wwCw&usqp=CAU' 
+                    width='40' alt='logo' />
+                  </div>
+                <div><h4 className='text-fuchsia-500 mb-3 text-center text-3xl'>KSI</h4></div>
+              </div>
+              
+              <p className='text-xl text-white leading-loose'>Kenya School Interviews is a platform <br></br>which
                allows users to apply for Interviews <br></br> 
                online through the platform and if they <br></br> 
                happen to meet the job requirements <br></br>

@@ -12,7 +12,7 @@ function Home() {
             <div>
                 <input className='border-solid border-2 border-blue-500 rounded-full px-4 py-1.5' type='text' name='text' placeholder='Search jobs here...' />
             </div>
-            <div className='my-8 text-xl text-white'>
+            <div className='my-8 text-xl text-white leading-loose'>
                 <p>We are hiring new people for our team. <br></br> Want to join? Keep the hiring process <br></br> smooth from the initial interview to <br></br> signing of the employement contract.</p>
             </div>
             <div>
