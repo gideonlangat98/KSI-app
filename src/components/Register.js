@@ -27,9 +27,9 @@ function Register() {
     <div className='mt-4'>
       <form className='w-60 h-70 max-w-sm bg-gray-100 rounded-md sm:max-w-md
        py-8 pr-12 pl-6 my-auto mx-auto' onSubmit={handleSubmit}>
-        <p className='mb-2'>Create Your Account</p>
+        <strong><p className='mb-2'>Create Your Account</p></strong>
         <div>
-          <label htmlFor='username'>Username</label>
+          <label htmlFor='username'>Username:</label>
           <input 
             className='p-2 rounded-full mb-2'
             name='text'
@@ -38,7 +38,7 @@ function Register() {
             onChange={(e) => setUsername(e.target.value)} />
         </div>
         <div>
-          <label htmlFor='username'>Password</label>
+          <label htmlFor='username'>Password:</label>
           <input
             className='p-2 rounded-full mb-2'
             name='text'
@@ -47,7 +47,7 @@ function Register() {
             onChange={(e) => setPassword(e.target.value)} />
         </div>
         <div>
-          <label htmlFor='password_confirmation'>Confirm Password</label>
+          <label htmlFor='password_confirmation'>Confirm Password:</label>
           <input
             className='p-2 rounded-full mb-3'
             name='text' 
@@ -55,14 +55,14 @@ function Register() {
             value={passwordConfirmation}
             onChange={(e) => setPasswordConfirmation(e.target.value)} />
         </div>
-        <button className='border-solid border-2 bg-pink-500 py-2 px-6
-         rounded-full text-white mb-4' type='submit'>Sign Up</button>
+        <button className='border-solid border-2 bg-pink-500 py-2 px-10
+         rounded-full text-white mb-4 ml-5' type='submit'>Sign Up</button>
          <div className='flex justify-evenly'>
           <div>
-            <p>Already have an account?</p>
+            <strong><p className='text-sm'>Already have an account?</p></strong>
           </div>
           <div>
-            <Link className='underline text-xl ml-2' to='/register'>{'Register'}</Link>
+            <em><Link className='underline ml-4 text-blue-600' to='/signin'>{'SignIn'}</Link></em>
           </div>
          </div>
          

@@ -3,3 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTvFLKWJHVLI4OillE8DLdKY7_NSnBGr3AMg&usqp=CAU");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

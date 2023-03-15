@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer';
 // import { Link } from 'react-router-dom'
 
 function Institutions() {
@@ -13,17 +14,20 @@ function Institutions() {
                 <p className='text-blue-500'>New Job Opportunities</p>
             </div>
             <div>
-                <button className='border-solid border-2 border-fuchsia-500 bg-transparent-500 py-1.5 px-6 rounded-full text-black ml-12'>View Jobs</button>
+                <button className='border-solid border-2 border-fuchsia-500 bg-transparent-500 py-1.5 px-6 rounded-full text-white ml-12'>View Jobs</button>
             </div>
         </div>
       <div className='flex justify-between'>
         {institutions.map((institution) => {
             return <div>
                 <button className='border-solid border-2 border-fuchsia-500 bg-transparent rounded-full
-            px-8 py-3 mx-2 my-2'>{institution.name}</button>
+            px-8 py-3 mx-2 my-2 text-white'>{institution.name}</button>
             </div>
         })}
       </div>
+      <footer>
+        <div className='mt-40'><Footer /></div>
+      </footer>
     </div>
   )
 }
