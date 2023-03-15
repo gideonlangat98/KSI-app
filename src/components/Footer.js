@@ -38,11 +38,28 @@ function Footer() {
 
             <div>
               <ul className='mt-8 px-3 text-blue-500'>
-                <li className='pb-2'>Facebook</li>
-                <li className='pb-2'>LinkedIn</li>
-                <li className='pb-2'>Twitter</li>
-                <li className='pb-2'>Instagram</li>
-                <li>Twitter</li>
+                <div className='flex justify-around pb-3'>
+                  <div><img src='https://img.icons8.com/color/1x/facebook-new.png' alt='facebook logo' width='35' /></div>
+                  <div><li className='pb-2 mt-1'>Facebook</li></div>
+                </div>
+                <div className='flex justify-around pb-3'>
+                  <div><img src='https://img.icons8.com/color/256/linkedin.png' alt='link' width='35' /></div>
+                  <div><li className='pb-2 mt-1'>LinkedIn</li></div>
+                </div>
+                <div className='flex justify-around pb-3'>
+                  <div><img src='https://img.icons8.com/color/256/twitter.png' alt='twitter' width='40' /></div>
+                  <div><li className='pb-2 mt-1'>Twitter</li></div>
+                </div>
+                <div className='flex justify-evenly pb-3'>
+                  <div><img src='https://img.icons8.com/color/256/instagram-new.png' alt='insta' width='35' /></div>
+                  <div><li className='pb-2 mt-1'>Instagram</li></div>
+                </div>
+                <div className='flex justify-evenly pb-3'>
+                  <div><img src='https://img.icons8.com/3d-fluency/1x/telegram.png' alt='link' width='35' /></div>
+                  <div><li>Telegram</li></div>
+                </div>
+                
+                
               </ul>
             </div>
           </div>
