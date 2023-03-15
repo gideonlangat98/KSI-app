@@ -5,7 +5,8 @@ import Footer from './Footer';
 function Institutions() {
     const institutions = [{name: 'Kabarak University'}, {name: 'Karatina University'}, 
     {name: 'Moringa School'}, {name: 'UON Main Campus'}, {name: 'Mount Kenya University'},
-    {name: 'Multimedia University'},];
+    {name: 'Multimedia University'}, {name: 'Maseno University'}, {name: 'Cooperative University'},
+    {name: 'Kenyatta University'}];
   
     return (
     <div>
@@ -17,7 +18,7 @@ function Institutions() {
                 <button className='border-solid border-2 border-fuchsia-500 bg-transparent-500 py-1.5 px-6 rounded-full text-white ml-12'>View Jobs</button>
             </div>
         </div>
-      <div className='flex justify-between'>
+      <div className='grid gap-4 grid-cols-3 mx-10'>
         {institutions.map((institution) => {
             return <div>
                 <button className='border-solid border-2 border-fuchsia-500 bg-transparent rounded-full
